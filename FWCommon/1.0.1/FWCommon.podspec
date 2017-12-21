@@ -91,7 +91,7 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "FWCommon/Lib/*/*.h"
+  s.source_files  = "FWCommon/Lib/FWCache/*.{h,m}","FWCommon/Lib/FWDrawView/*.{h,m}","FWCommon/Lib/FWMonitor/*.{h,m}","FWCommon/Lib/FWProgressHUD/*.{h,m}","FWCommon/Lib/FWSegment/*.{h,m}","FWCommon/Lib/FWCarouselView/*.{h,m}"
   #s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
